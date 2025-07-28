@@ -13,5 +13,8 @@ function findNemo(array) {
   console.log('Call to find Nemo took ' + (t1 - t0) + ' miliseconds');
 }
 
-findNemo(large);
+findNemo(large); /*
+this function has a big O notation of 0(n)
+Linear time. Big O depends on the number of inputs 
+As the inputs increase the number of operations icreases linearly  4 inputs is 4 operations that's it. */ 
 
